@@ -1,0 +1,30 @@
+{
+  "name": "releaseautomation",
+  "version": "1.0.0",
+  "description": "A few scripts for automating common release tasks",
+  "main": "index.js",
+  "scripts": {
+    "test": "testytest",
+    "mergeback": "node mergeback.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johns-smartek/ReleaseAutomation.git"
+  },
+  "keywords": [
+    "jira",
+    "github"
+  ],
+  "author": "John Simon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johns-smartek/ReleaseAutomation/issues"
+  },
+  "homepage": "https://github.com/johns-smartek/ReleaseAutomation#readme",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
