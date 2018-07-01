@@ -1,3 +1,3 @@
-import {get} from 'axios';
+require('lib/environment');
 
-console.log('ok')
+console.log(process.env.PASS)

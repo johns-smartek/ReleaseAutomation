@@ -2,11 +2,7 @@
   "name": "releaseautomation",
   "version": "1.0.0",
   "description": "A few scripts for automating common release tasks",
-  "main": "index.js",
-  "scripts": {
-    "test": "testytest",
-    "mergeback": "node mergeback.js"
-  },
+  "main": "mergeback.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/johns-smartek/ReleaseAutomation.git"
@@ -24,7 +20,11 @@
   "engines": {
     "node": ">=8.0.0"
   },
+  "scripts": {
+    "mergeback" : "node mergeback.js"
+  },
   "dependencies": {
-    "axios": "^0.18.0"
+    "axios": "^0.18.0",
+    "dotenv": "^6.0.0"
   }
 }
